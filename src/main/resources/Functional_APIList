@@ -1,0 +1,29 @@
+Fetch All Users ( GET ) 
+ http://localhost:8080/api/v1/userservice
+
+Create User ( POST )
+http://localhost:8080/api/v1/userservice?Content-Type=application/json
+Request :
+{  
+        "firstName":       "sonoo",   
+        "lastName":      "naga",   
+        "dob":    "July-01-1990",  
+        "city" : "Banglore",
+        "mobileNumber" : "7989790955",
+        "id":101
+} 
+
+Update User  ( PUT )
+http://localhost:8080/api/v1/userservice?Content-Type=application/json
+Request :
+{  
+        "firstName":       "sonoo",   
+        "lastName":      "llll",   
+        "dob":    "July-01-1990",  
+        "city" : "Banglore",
+        "mobileNumber" : "7989790955",
+        "id":101
+} 
+
+Get User ( GET )
+http://localhost:8080/api/v1/userservice/103
